@@ -886,3 +886,45 @@ body {
     left: 0;
     font-weight: bold;
 }
+
+/* Papers Page Styles */
+.papers-hero {
+    padding: calc(var(--nav-height) + 4rem) 0 2rem;
+    background: var(--background-alt);
+}
+
+.papers-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.papers-section-title {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin: 3rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.papers-section-title:first-child {
+    margin-top: 0;
+}
+
+.paper-item {
+    margin-bottom: 1.2rem;
+}
+
+.paper-item p {
+    line-height: 1.8;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.paper-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.paper-item a:hover {
+    text-decoration: underline;
+}
