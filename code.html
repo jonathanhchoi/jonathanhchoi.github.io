@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code - Jonathan H. Choi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Jonathan H. Choi</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="code.html" class="nav-link active">Code</a></li>
+                <li><a href="index.html#research" class="nav-link">Research</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="code-hero">
+        <div class="container">
+            <h1 class="page-title">Code & Projects</h1>
+            <p class="page-subtitle">
+                Computational tools and research code for empirical legal analysis
+            </p>
+            <div class="tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">R</span>
+                <span class="tech-badge">Stata</span>
+                <span class="tech-badge">Jupyter</span>
+                <span class="tech-badge">NLP</span>
+                <span class="tech-badge">Machine Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="code-intro">
+                <p>
+                    I believe in open science and reproducible research. All code for my research projects is 
+                    made publicly available alongside published papers. I primarily work with Python, R, and Stata,
+                    using Jupyter notebooks for interactive analysis and remote server execution.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" id="llm-legal">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Research Code</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Large Language Models in Empirical Legal Research</h3>
+                    <p class="project-description">
+                        Implementation of LLM-based methods for analyzing legal documents, including prompt engineering
+                        techniques and evaluation metrics for legal text understanding. Features custom pipelines for
+                        processing court opinions and statutory text.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Transformers</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/jonathanhchoi/llm-interpretation-replication" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card" id="clarity">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Analysis Tool</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Measuring Clarity in Legal Text</h3>
+                    <p class="project-description">
+                        A comprehensive toolkit for quantifying clarity in legal documents using multiple metrics
+                        including readability scores, syntactic complexity, and semantic coherence. Includes 
+                        visualization tools for comparative analysis across document types.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLTK</span>
+                        <span class="tech-tag">spaCy</span>
+                        <span class="tech-tag">Plotly</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card" id="tax-compliance">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Empirical Study</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Subjective Costs of Tax Compliance</h3>
+                    <p class="project-description">
+                        Statistical analysis of survey data examining the psychological and time costs of tax compliance.
+                        Includes regression models, data cleaning pipelines, and interactive visualizations of findings
+                        across different taxpayer demographics.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">R</span>
+                        <span class="tech-tag">Stata</span>
+                        <span class="tech-tag">ggplot2</span>
+                        <span class="tech-tag">Survey Analysis</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card" id="chatgpt-education">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Educational Research</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">ChatGPT in Legal Education</h3>
+                    <p class="project-description">
+                        Experimental study examining the use of ChatGPT in legal education contexts. Includes 
+                        prompt templates, evaluation rubrics, and analysis of AI-generated legal reasoning compared
+                        to student responses.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">Text Analysis</span>
+                        <span class="tech-tag">Jupyter</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Legal Analysis</span>
+                            <span class="project-year">2022</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Empirical Study of Statutory Interpretation in Tax Law</h3>
+                    <p class="project-description">
+                        Comprehensive analysis of judicial interpretation patterns in tax cases. Includes text mining
+                        of court opinions, citation network analysis, and predictive models for case outcomes based
+                        on textual features.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NetworkX</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Case Law Analysis</span>
+                            <span class="project-year">2022</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Legal Analysis of Mayo and Chevron</h3>
+                    <p class="project-description">
+                        Computational analysis of the Mayo and Chevron doctrines in administrative law. Features
+                        automated case classification, deference pattern detection, and temporal analysis of doctrine
+                        evolution in federal courts.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">R</span>
+                        <span class="tech-tag">Text Mining</span>
+                        <span class="tech-tag">Regression Analysis</span>
+                        <span class="tech-tag">Shiny</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="code-resources">
+                <h2 class="section-subtitle">Resources & Tools</h2>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <i class="fas fa-file-pdf"></i>
+                        <h3>Curriculum Vitae</h3>
+                        <p>Download my full academic CV including publications, presentations, and teaching experience.</p>
+                        <a href="cv.pdf" class="resource-link">Download CV <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="resource-card">
+                        <i class="fas fa-book"></i>
+                        <h3>SSRN Papers</h3>
+                        <p>Access my published research papers and working papers on SSRN.</p>
+                        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="resource-link">View Papers <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="resource-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>Professional Profile</h3>
+                        <p>Connect with me on LinkedIn for professional updates and networking.</p>
+                        <a href="https://linkedin.com/in/jonathanhchoi" class="resource-link">View Profile <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jonathan H. Choi. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
