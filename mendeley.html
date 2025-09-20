@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mendeley & Citation Tools - Jonathan H. Choi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Jonathan H. Choi</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="papers.html" class="nav-link">Papers</a></li>
+                <li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2232793" class="nav-link">SSRN</a></li>
+                <li><a href="cv.pdf" class="nav-link">CV</a></li>
+                <li><a href="mendeley.html" class="nav-link active">Mendeley</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="mendeley-hero">
+        <div class="container">
+            <h1 class="page-title">Mendeley and Citation Style Language</h1>
+            <p class="page-subtitle">
+                Tools and resources for academic reference management and legal citation formatting
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="mendeley-content">
+                <div class="content-section">
+                    <h2 class="section-subtitle">Mendeley Reference Manager</h2>
+                    <p>
+                        I use <a href="https://www.mendeley.com/newsfeed" target="_blank">Mendeley's reference manager</a>,
+                        <a href="https://www.mendeley.com/reference-management/web-importer" target="_blank">Web Importer</a>, and
+                        <a href="https://www.mendeley.com/guides/using-citation-editor" target="_blank">Microsoft Word plugin</a>
+                        to save papers and then automatically cite them in my articles. This saves me time with Bluebooking and
+                        cross-references, streamlining the academic writing process.
+                    </p>
+                </div>
+
+                <div class="content-section">
+                    <h2 class="section-subtitle">Citation Style Language (CSL) for Bluebooking</h2>
+                    <p>
+                        Most reference managers use Citation Style Language (CSL) to format footnotes. The best Bluebook CSL
+                        template was created by Bruce D'Arcus and Nancy Sims. I've made some modifications to their excellent
+                        template to better suit legal academic writing needs.
+                    </p>
+
+                    <div class="resource-box">
+                        <h3>Download Resources</h3>
+                        <ul class="resource-list">
+                            <li>
+                                <i class="fas fa-download"></i>
+                                <a href="https://csl.mendeley.com/styles/521287161/bluebook-law-review-Choi" target="_blank">
+                                    Modified Bluebook CSL Template
+                                </a>
+                                <span class="resource-description">- My customized version for law review citations</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-file-alt"></i>
+                                <a href="#" onclick="alert('Journal abbreviation file - implementation needed')">
+                                    Journal Abbreviation File
+                                </a>
+                                <span class="resource-description">- Modified file for periodical name abbreviations</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="installation-note">
+                        <p><strong>Installation:</strong> Mendeley provides a <a href="https://www.mendeley.com/guides/mendeley-cite/custom-styles" target="_blank">guide on installing citation styles</a>.
+                        This template should also work with other reference managers like Zotero, though I haven't tested it extensively.</p>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2 class="section-subtitle">Frequently Asked Questions</h2>
+                    <div class="faq-container">
+                        <div class="faq-item">
+                            <h3><i class="fas fa-question-circle"></i> How do I add quotations?</h3>
+                            <p>Use the suffix field in the Mendeley Word plug-in to add quoted text after your citations.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3><i class="fas fa-question-circle"></i> How do I de-italicize specific words?</h3>
+                            <p>Use this formatting hack: <code>&lt;/i&gt;word&lt;i&gt;</code> - This closes and reopens the italic tags around the word you want to de-italicize.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3><i class="fas fa-question-circle"></i> What about the parentheses bug?</h3>
+                            <p>There's a known issue with parentheses in citations. You'll need to manually convert these before final publication.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <div class="tips-box">
+                        <h3><i class="fas fa-lightbulb"></i> Tips for Using These Tools</h3>
+                        <ul>
+                            <li>Always double-check generated citations against the Bluebook</li>
+                            <li>Keep your Mendeley library organized with folders for different projects</li>
+                            <li>Regularly sync your library across devices</li>
+                            <li>Export a backup of your library periodically</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jonathan H. Choi. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="papers.html">Papers</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
