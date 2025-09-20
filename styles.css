@@ -928,3 +928,8 @@ body {
 .paper-item a:hover {
     text-decoration: underline;
 }
+
+.journal-name {
+    font-variant: small-caps;
+    font-weight: 500;
+}
